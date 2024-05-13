@@ -11,6 +11,6 @@ Esse projeto é um buscador completo. Inclui a coleta, armazenamento e compress�
 2. Para indexação:
   - Limpeza de termos
   - Tratamento léxico
-  - Haja a indexação de termos com o índice invertido
-  - Tamanho da indexação
+  - Indexação de termos com índice invertido
+  - Declarar tamanho da indexação
 3. Para retorno de buscas e ranking:
