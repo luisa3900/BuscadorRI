@@ -1,0 +1,17 @@
+RESUMO:
+
+1: crawler
+2: indexação
+3: ranking
+
+metas: poder reabrir arquivos comprimidos e poder buscar páginas num determinado domínio
+
+processo:
+    1. eu mando a url, tu faz o mapa de domínios a serem explorados a fim de reduzir custo computacional, tu extrai o html de cada uma e retorna uma string do html (os html precisam ser armazenados com total preservação)
+
+    2. aí, em paralelo vão acontecer as atividades de indexação e compressão dos textos
+    2.1. a indexação é seleção de termos para busca, fazendo a retirada de stop words e stemma/lemma dos termos
+    2.2. a compressão é colocar todas as palavras de cada documento html dentro de uma lista de termos (usando a técnica de huffman)
+
+    3. para a parte final, é preciso fazer os modelos de busca booleano, probabilístico e vetorial (aí os índices precisam estar funcionando)
+    3.1. nos modelos de busca, é feito o retorno dos documentos e, em alguns modelos, um retorno sofisticado com "documento decentes"
